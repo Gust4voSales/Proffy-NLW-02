@@ -12,7 +12,7 @@ export async function up(knex: Knex) {
             .onDelete('CASCADE'); // if the class is deleted then all its classes schedules are deleted as well
 
         table.timestamp('created_at')
-            .defaultTo('now')
+            .defaultTo(knex.raw('CURRENT_TIMESTAMP'))
             .notNullable();
     });
 }
