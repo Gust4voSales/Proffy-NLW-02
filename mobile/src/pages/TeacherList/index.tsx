@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { View, ScrollView, Text, TextInput } from 'react-native';
-import TeacherItem from '../../components/TeacherItem';
+import { View, ScrollView, Text, TextInput, Keyboard } from 'react-native';
+import TeacherItem, { Teacher } from '../../components/TeacherItem';
 import PageHeader from '../../components/PageHeader';
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
@@ -29,7 +29,9 @@ export default function TeacherList() {
             }
         })
 
+        setIsFilterVisible(false);
         setTeachers(data);
+        Keyboard.dismiss();
     }
 
     return(
@@ -87,7 +89,7 @@ export default function TeacherList() {
                     paddingBottom: 16,
                 }}
             >
-                {teachers.map(teacher => <TeacherItem key={teacher.id}/>)}
+                {teachers.map((teacher: Teacher) => <TeacherItem teacher={teacher} key={teacher.id}/>)}
             </ScrollView>
         </View>
     );
