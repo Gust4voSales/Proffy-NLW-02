@@ -4,6 +4,11 @@
 
 <p>Proffy is a platform that connects students and teachers. It's an open source project developed during the second Next Level Week edition by @Rocketseat</p>
 
+<p align="center">
+    <a href="README-pt.md">README em Português</a>
+</p>
+
+
 <h3>WEB screenshots</h3>
 <div align="center">
   <img src="https://github.com/Gust4voSales/Proffy-NLW-02/blob/master/.github/web-landing.png?raw=true" alt="logo" height="425">
