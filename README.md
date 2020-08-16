@@ -41,7 +41,7 @@ First of all, clone this repo running on your terminal with ````git clone https:
 1. Run ````yarn```` inside server folder to install all dependecies
 2. Then ````yarn knex:migrate```` to run the database migrations and create the tables
 3. Finally ````yarn start```` to run the api
-4. Optionally, <br/> <div align="center">[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Ecoleta%20-%20NLW%2301&uri=.github%2FInsomnia_2020-08-16.json) </div>
+4. Optionally, <br/> <div align="center">[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Proffy-%20NLW%2302&uri=.github%2FInsomnia_2020-08-11.json)</div>
 
 * #### Running the web project
 1. Run ````yarn```` inside web folder to install all dependecies 
