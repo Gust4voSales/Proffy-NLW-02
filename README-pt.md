@@ -41,7 +41,7 @@ Primeiramente, clone o repositório rodando ````git clone https://github.com/Gus
 1. Rode ````yarn```` dentro da pasta server para instalar todas as dependências 
 2. Então ````yarn knex:migrate```` para rodar as migrations do banco de dados e criar as tabelas 
 3. Por fim, ````yarn start```` para rodar a API
-4. Opcionalmente, <br/> <div align="center">[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=&uri=) </div>
+4. Opcionalmente, <br/> <div align="center">[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Proffy-%20NLW%2302&uri=https%3A%2F%2Fraw.githubusercontent.com%2FGust4voSales%2FProffy-NLW-02%2Fmaster%2F.github%2FInsomnia_2020-08-11.json)</div>
 * #### Iniciando o projeto web
 1. Rode ````yarn```` dentro da pasta web para instalar todas as dependências 
 2. ````yarn start```` para rodar a aplicação WEB
